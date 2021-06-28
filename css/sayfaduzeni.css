@@ -1,0 +1,209 @@
+body{
+	background-image:url(../resimler/accord3.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	position:absolute;
+	margin:0px;
+	padding:0px;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	z-index:-100;
+}
+
+
+/*-----------------BAŞLIK MENÜSÜ------------------*/
+#ustcontainer{
+	margin:auto;
+	width:1300px;
+	height:150px;
+	top:40px;
+	overflow:visible;
+}
+
+
+
+#logo{
+	float:left;
+	background-image:url("../resimler/honda.png");
+	width:325.5px;
+	height:120.5px;
+	position:relative;
+	padding:0px;
+	margin:0px;
+	background-size:cover;
+	top:20px;
+	opacity:0.9;
+}
+
+
+
+#baslik{
+	float:left;
+	width:970px;
+	height:60px;
+	text-align:center;
+	color:red;
+	margin-top:20px;
+	margin-left:0px;
+	font-size:45px;
+	font-family:calibri;
+	letter-spacing:1px;
+	background-color:white;
+	border-radius:20;
+	opacity:0.9;
+}
+
+
+
+#ustmenu{
+	float:left;
+	background-color:black;
+	width:740px;
+	height:40px;
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	padding-top:10px;
+	opacity:0.8;
+	box-shadow:2.5px 2.5px 2.5px black;
+}
+#ustmenu ul{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+}
+#ustmenu ul li{
+	float:left;
+	position:relative;
+}
+#ustmenu ul li a{
+	text-align:center;
+	color:white;
+	display:block;
+	width:148px;
+	height:40px;
+	font-size:17.5px;
+	text-decoration:none;
+	font-family:calibri;
+	margin-top:-10px;
+	padding-top:10px;
+	background-color:black;
+	transition:color 0.5s,background-color 0.5s;
+}
+#ustmenu ul li a:hover{
+	background-color:white;
+	color:cornflowerblue
+}
+#ustmenu ul li ul{
+	display:none;
+	position:absolute;
+	left:0px;
+	top:50px;
+	box-shadow:5px 5px 5px black;
+}
+#ustmenu ul li:hover ul{
+	display:block;
+}
+
+
+
+#sosyal{
+	float:left;
+	width:200px;
+	height:55px;
+	margin-left:10px;
+	margin-top:5px;
+}
+#sosyal img{
+	width:50px;
+	height:50px;
+	padding-left:2.5px;
+	margin-top:5px;
+	margin-left:7.5px;
+	border-radius:15px;
+}
+
+
+
+/*-----------------ORTA MENÜ------------------*/
+
+
+
+#dikeymenu{
+	float:left;
+	width:162px;
+	height:auto;
+	margin-left:25px;
+	margin-top:10px;
+	background-color:black;
+	opacity:0.8;
+	box-shadow:5px 5px 5px black;
+}
+#dikeymenu ul{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+}
+#dikeymenu ul li a{
+	color:white;
+	display:block;
+	width:162px;
+	height:40px;
+	text-align:center;
+	text-decoration:none;
+	font:bold 15px tahoma;
+	padding-top:15px;
+	background-color:black;
+	transition:color 0.5s,background-color 0.5s;
+}
+#dikeymenu ul li a:hover{
+	background-color:white;
+	color:cornflowerblue
+}
+#dikeymenu ul li ul{
+	display:none;
+	position:absolute;
+	left:162px;
+	top:0px;
+	box-shadow:5px 5px 5px black;
+}
+#dikeymenu ul li:hover ul{
+	display:block;
+}
+#dikeymenu ul li{
+	position:relative;
+}
+
+
+#ortaAlan{
+	float:left;
+	width:740px;
+	height:auto;
+	background-color:white;
+	margin-top:20px;
+	margin-left:175px;
+	overflow:auto;
+	border-radius:10px;
+}
+#ortaAlan img{
+	margin-left:10px;
+	width:724px;
+	height:425px;
+	padding-top:20px;
+}
+	
+.ortaAlanYazi{
+	margin-left:20px;
+	margin-right:20px;
+	padding:5px;
+	font-family:calibri;
+}
+
+
+
+
+
+
